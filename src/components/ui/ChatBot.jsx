@@ -17,7 +17,7 @@ const INITIAL_MSG = {
 
 // ✅ NOW CALLING YOUR BACKEND
 async function askGemini(userMessage) {
-  const res = await fetch('http://localhost:5000/chat', {
+  const res = await fetch('https://portfolio-sristi-production.up.railway.app/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
