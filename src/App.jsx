@@ -9,7 +9,6 @@ import Projects from './components/sections/Projects'
 import Achievements from './components/sections/Achievements'
 import Contact from './components/sections/Contact'
 import Footer from './components/ui/Footer'
-import ChatBot from './components/ui/ChatBot'
 import CommandPalette from './components/ui/CommandPalette'
 import ParticleBackground from './components/ui/ParticleBackground'
 
