@@ -15,7 +15,7 @@ const INITIAL_MSG = {
   text: "Hi! I'm Sristi's AI assistant 👋 Ask me anything about her projects, skills, or experience!"
 }
 
-// ✅ NOW CALLING YOUR BACKEND
+// ✅ NOW CALLING YOUR BACKEND h
 async function askGemini(userMessage) {
   const res = await fetch('https://portfolio-sristi-production.up.railway.app/chat', {
     method: 'POST',
