@@ -62,3 +62,7 @@ Answer in a friendly, concise way.
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => console.log(`Server running on ${PORT}`))
+
+app.get('/', (req, res) => {
+  res.send("Backend is running 🚀")
+})
